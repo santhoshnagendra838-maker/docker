@@ -1,0 +1,12 @@
+{
+  "name": "docker-node-nginx-demo",
+  "version": "1.0.0",
+  "description": "A minimal example to demonstrate multi-stage Docker build",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.html dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
